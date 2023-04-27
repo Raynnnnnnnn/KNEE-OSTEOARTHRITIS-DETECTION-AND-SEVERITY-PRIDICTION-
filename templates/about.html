@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Play&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico" />
+    <title>OrthoMate</title>
+
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img
+          class="nav-logo"
+          src="/static/LogoOrtho.png"
+          alt="LogoOrtho"
+          width="50"
+          height="50"
+        />
+        <h1>rthoMate</h1>
+      </div>
+       <a href="/">Home</a>
+    </nav>
+
+    <div class="Abt">
+        <h1 >If you want to download the sample data<h1>
+        <button type="button" class="downloadTest" >
+        <a href="https://drive.google.com/drive/folders/1EOMaMlVX3dZmDwDzacEOgtqRp51dx2zx?usp=sharing">Download</a></button>
+    </div>
+
+    {% extends "base.html" %} {% block content %} {% endblock %}
+  </body>
+
+  
+</html>

@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Play&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico" />
+    <title>OrthoMate</title>
+
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img
+          class="nav-logo"
+          src="/static/LogoOrtho.png"
+          href="/"
+          alt="LogoOrtho"
+          width="50"
+          height="50"
+        />
+        <h1 href=" ">rthoMate</h1>
+      </div>
+      <a href="/about"> Download Sample Data</a>
+    </nav>
+
+    <div class="very_main">
+      <header>
+        <div class="top_frame">
+          <h1>Prediction of Knee Osteoarthritis</h1>
+        </div>
+      </header>
+
+      {% extends "base.html" %} {% block content %}
+
+      <p class="description">
+        Choose your Knee X-Ray visual file and click Predict to get your
+        diagnosis.
+      </p>
+
+      <div>
+        <form id="upload-file" method="post" enctype="multipart/form-data">
+          <label for="imageUpload" class="upload-label">
+            Select your Knee X-Ray Visual
+          </label>
+          <input
+            type="file"
+            name="file"
+            id="imageUpload"
+            accept=".png, .jpg, .jpeg"
+          />
+        </form>
+
+        <div class="image-section" style="display: none">
+          <div class="img-preview">
+            <div id="imagePreview"></div>
+          </div>
+          <div>
+            <button type="button" class="upload-label" id="btn-predict">
+              Predict!
+            </button>
+          </div>
+        </div>
+
+        <div class="loader" style="display: none"></div>
+
+        <h3 id="result">
+          <span> </span>
+        </h3>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>
+        © OrthoMate 2023 ® - Your Diagnosis for the Prediction of Knee
+        Osteoarthritis Using Deep Learning
+      </p>
+    </footer>
+
+    {% endblock %}
+  </body>
+</html>
