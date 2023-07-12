@@ -10,9 +10,10 @@
 /* #f2f0eb; */
 html {
 
-    color: #2a2f83;
-    background-color: #FFFBEB;
-    background-image:  radial-gradient(#20bbef 1.85px, transparent 1.85px), radial-gradient(#20bbef 1.85px, #FFFBEB 1.85px);
+    color: #285430;
+    
+    background-color: #A4BE7B;
+    background-image:  radial-gradient(#5F8D4E 1.85px, transparent 1.85px), radial-gradient(#5F8D4E 1.85px, #A4BE7B 1.85px);
     background-size: 74px 74px;
     background-position: 0 0,37px 37px;
     font-family: 'Play', sans-serif;
@@ -43,13 +44,13 @@ html {
 
 .navbar h1 {
     font-size: 40px;
-    color: #20bbef;
+    color: #5F8D4E;
       /* margin-left: -98rem; */
 
 }
 .navbar a{
     text-decoration: none;
-    color: #2a2f83;
+    color: #285430;
     font-weight: bolder;
 }
 @keyframes rotation {
@@ -90,7 +91,7 @@ Navbar */
 }
 
 .img-preview:hover {
-    border: 5px solid #2a2f83;
+    border: 5px solid #285430;
     -webkit-transition: all 0.5s ease;
      transition: all 0.5s ease; 
 }
@@ -104,14 +105,16 @@ input[type="file"] {
     margin-top: 1rem;
     /* margin-bottom: 2px; */
     padding: 12px 28px;
-    background: #20bbef;
+    background: #5F8D4E;
     color: #fff;
     font-size: 2em;
     font-weight: bolder;
     transition: all .4s;
     cursor: pointer;
-    border: 2px solid #cccccc;
-    border-radius: 20px;
+    border:none;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px #888888;
+
 }
 
 .upload-label:hover{
@@ -122,7 +125,7 @@ input[type="file"] {
 
 .loader {
     border: 8px solid #f3f3f3; /* Light grey */
-    border-top: 8px solid #2a2f83; /* Blue */
+    border-top: 8px solid #285430; /* Blue */
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -141,10 +144,10 @@ input[type="file"] {
 .very_main h1{
   font-size: 40px;
   padding-top: 80px;
-  color: #2a2f83;
+  color: #285430;
   /* font-family: monospace; */
   overflow: hidden; 
-  border-right: .15em solid #20bbef; 
+  border-right: .15em solid #5F8D4E; 
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
@@ -162,7 +165,7 @@ input[type="file"] {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #20bbef }
+  50% { border-color: #5F8D4E }
 }
 
 .final_word{
@@ -185,14 +188,15 @@ input[type="file"] {
 .downloadTest{
     margin-top: 2rem;
     padding: 10px 20px;
-    background: #20bbef;
+    background: #5F8D4E;
     color: #fff;
     font-size: 2em;
     /* font-weight: bolder; */
     transition: all .4s;
     cursor: pointer;
-    border: 2px solid #cccccc;
-    border-radius: 20px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px #888888;
 }
 .downloadTest:hover{
     background: #000000;
@@ -203,4 +207,11 @@ input[type="file"] {
 .downloadTest a{
     text-decoration: none;
     color: #f3f3f3;
+}
+
+.button-sample{
+    background-color: #A4BE7B;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #888888;
+    padding: 10px;
 }
