@@ -1,6 +1,6 @@
-# OrthoMate
+# ArthoScan Pro
 
-OrthoMate is a deep-learning-based web application that is capable of  KNEE OSTEOARTHRITIS DETECTION AND  SEVERITY PRIDICTION USING MACHINE LEARNING. 
+ArthoScan Pro is a deep-learning-based web application that is capable of  KNEE OSTEOARTHRITIS DETECTION AND  SEVERITY PRIDICTION USING MACHINE LEARNING. 
 
 ## Algorithms Implemented for machine learning model
 
@@ -27,10 +27,11 @@ OrthoMate is a deep-learning-based web application that is capable of  KNEE OSTE
 
 ## Interface
 
-![image](https://github.com/Raynnnnnnnn/KNEE-OSTEOARTHRITIS-DETECTION-AND-SEVERITY-PRIDICTION-/assets/112624847/2c820c82-d55f-49ca-84f8-a3a461500045)
+![Screenshot 2023-07-23 155617](https://github.com/Raynnnnnnnn/KNEE-OSTEOARTHRITIS-DETECTION-AND-SEVERITY-PRIDICTION-/assets/112624847/762c2b31-c5ad-48d6-b570-6de6a3970422)
 
-![image](https://github.com/Raynnnnnnnn/KNEE-OSTEOARTHRITIS-DETECTION-AND-SEVERITY-PRIDICTION-/assets/112624847/4914f9d8-df08-4063-968e-610d8a63ea92)
+![Screenshot 2023-07-23 155721](https://github.com/Raynnnnnnnn/KNEE-OSTEOARTHRITIS-DETECTION-AND-SEVERITY-PRIDICTION-/assets/112624847/92bbe16a-7abd-46cb-8b7a-239e5a45cd13)
 
-![image](https://github.com/Raynnnnnnnn/KNEE-OSTEOARTHRITIS-DETECTION-AND-SEVERITY-PRIDICTION-/assets/112624847/c1e60b87-fc64-4cf1-9b98-621ccddf3c9e)
+![6587](https://github.com/Raynnnnnnnn/KNEE-OSTEOARTHRITIS-DETECTION-AND-SEVERITY-PRIDICTION-/assets/112624847/d5b41a6e-ad66-4de5-b299-9edeae0b6b61)
+
 
 
