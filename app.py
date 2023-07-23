@@ -10,7 +10,8 @@ app = Flask(__name__)
 dic = {0: 'Normal', 1: 'Doubtful', 2: 'Mild', 3: 'Moderate', 4: 'Severe'}
 
 
-# Image Size
+
+
 img_size = 256
 model = load_model('model.h5')
 

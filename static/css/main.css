@@ -10,24 +10,18 @@
 /* #f2f0eb; */
 html {
 
-    color: #285430;
-    
-    background-color: #A4BE7B;
-    background-image:  radial-gradient(#5F8D4E 1.85px, transparent 1.85px), radial-gradient(#5F8D4E 1.85px, #A4BE7B 1.85px);
-    background-size: 74px 74px;
-    background-position: 0 0,37px 37px;
+    color: #6AA9FD;
     font-family: 'Play', sans-serif;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+  
 }
 
 
 .navbar {
     /* display: flex; */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: white;
-    border-style: outset;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #000000;
     border-bottom-color:linear-gradient(90deg, rgba(189,195,199,1) 84%, rgba(0,0,0,1) 100%);
     display: flex;
 
@@ -39,18 +33,17 @@ html {
 .nav-logo {
     animation: rotation 15s infinite linear;
     /* transform: rotate(180deg); */
-    margin-left: 20px;
 }
 
 .navbar h1 {
     font-size: 40px;
-    color: #5F8D4E;
-      /* margin-left: -98rem; */
+    color: #6AA9FD;
+      margin-left: -20px;
 
 }
 .navbar a{
     text-decoration: none;
-    color: #285430;
+    color: #6AA9FD;
     font-weight: bolder;
 }
 @keyframes rotation {
@@ -91,7 +84,7 @@ Navbar */
 }
 
 .img-preview:hover {
-    border: 5px solid #285430;
+    border: 5px solid #6AA9FD;
     -webkit-transition: all 0.5s ease;
      transition: all 0.5s ease; 
 }
@@ -105,7 +98,6 @@ input[type="file"] {
     margin-top: 1rem;
     /* margin-bottom: 2px; */
     padding: 12px 28px;
-    background: #5F8D4E;
     color: #fff;
     font-size: 2em;
     font-weight: bolder;
@@ -114,18 +106,19 @@ input[type="file"] {
     border:none;
     border-radius: 40px;
     box-shadow: 5px 5px 10px #888888;
+    background: #000000;
+    color: #ffff;
+    border: 2px solid #6AA9FD;
 
 }
 
 .upload-label:hover{
-    background: #000000;
-    color: #ffff;
-    border: 2px solid #ffffff;
+    background: #6AA9FD;
 }
 
 .loader {
     border: 8px solid #f3f3f3; /* Light grey */
-    border-top: 8px solid #285430; /* Blue */
+    border-top: 8px solid #6AA9FD; /* Blue */
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -140,14 +133,19 @@ input[type="file"] {
 .very_main{
     margin: auto;
     text-align: center;
+    background-image:url("http://www.virginiaorthopaedicspecialists.com/wp-content/uploads/2014/03/Knee-Pain.jpg") ;   
+    background-size:calc(50%);
+    background-repeat:repeat-x;
+    height: 100vh;
+
 }
 .very_main h1{
   font-size: 40px;
   padding-top: 80px;
-  color: #285430;
+  color: #6AA9FD;
   /* font-family: monospace; */
   overflow: hidden; 
-  border-right: .15em solid #5F8D4E; 
+  border-right: .15em solid #6AA9FD; 
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
@@ -165,7 +163,7 @@ input[type="file"] {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #5F8D4E }
+  50% { border-color: #6AA9FD }
 }
 
 .final_word{
@@ -174,34 +172,44 @@ input[type="file"] {
 }
 .footer{
     height: 40px;
-    margin-top: 430px;
-    background-color: #fff;
+    margin-top: 380px;
+    color: #ffffff;
 }
 
 
 .Abt{
     text-align: center;
+    background-color:#000000; 
+    border: none;
+    color: white;
+    margin: auto;
+    text-align: center;
+    background-image:url("http://www.virginiaorthopaedicspecialists.com/wp-content/uploads/2014/03/Knee-Pain.jpg") ;   
+    background-size:calc(50%);
+    background-repeat:repeat-x;
+    height: 100vh;
 }
 .Abt h1{
     font-size: 2rem;
+    
 }
 .downloadTest{
     margin-top: 2rem;
     padding: 10px 20px;
-    background: #5F8D4E;
+    background: #000000;
     color: #fff;
     font-size: 2em;
     /* font-weight: bolder; */
     transition: all .4s;
     cursor: pointer;
-    border: none;
+    border: 2px solid #6AA9FD ;
     border-radius: 40px;
     box-shadow: 5px 5px 10px #888888;
 }
 .downloadTest:hover{
-    background: #000000;
+    background: #6AA9FD;
     color: #ffff;
-    border: 2px solid #ffffff;
+    border: 2px solid #000000;
 
 }
 .downloadTest a{
@@ -210,8 +218,10 @@ input[type="file"] {
 }
 
 .button-sample{
-    background-color: #A4BE7B;
+    color: #ffffff;
+    text-decoration-color: #fff;
+    background-color: #000000;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px #888888;
     padding: 10px;
 }
+
